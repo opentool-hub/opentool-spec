@@ -1,6 +1,6 @@
 # OpenTool规范
 
-版本 1.0.0
+版本 1.1.0
 
 ## 介绍
 
@@ -23,6 +23,7 @@ OpenTool面向一般性的程序调用描述，并且配合Client(Agent端)和Se
 |-----------|-------------------------|-----------------------------|
 | opentool  | `string`                | **必填**。当前OpenTool的JSON文档版本。 |
 | info      | Info对象                  | **必填**。描述当前OpenTool文档的信息。   |
+| server    | Server对象                | 表示一个可访问的OpenTool Server     |
 | functions | \[Function对象\]          | **必填**。描述当前工具调用支持的函数信息。     |
 | schemas   | Map<`string`, Schema对象> | 描述`schema`名称及其输入输出的格式       |
 
@@ -33,6 +34,13 @@ OpenTool面向一般性的程序调用描述，并且配合Client(Agent端)和Se
 | title       | `string` | **必填**。当前OpenTool的JSON文档的标题。 |
 | description | `string` | 当前OpenTool文档的更详细的描述信息。       |
 | version     | `string` | **必填**。当前文档的版本号，用于文档版本管理。    |
+
+### Server对象
+
+| 字段          | 类型       | 描述                                  |
+|-------------|----------|-------------------------------------|
+| url         | `string` | **必填**。指向OpenTool Server目标主机的 URL 。 |
+| description | `string` | 可选的文本，用于描述该 URL 所指定的主机。             |
 
 ### Function对象
 

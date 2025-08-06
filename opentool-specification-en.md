@@ -23,6 +23,7 @@ OpenTool is designed for general-purpose program invocation descriptions and is 
 |-----------|------------------------------|----------------------------------------------------------------------------------------------|
 | opentool  | `string`                     | **Required**. The version of the current OpenTool JSON document.                             |
 | info      | Info Object                  | **Required**. Information describing the current OpenTool document.                          |
+| server    | Server Object                | An object representing an OpenTool Server.                                                   |
 | functions | \[Function Object\]          | **Required**. Information describing the functions supported by the current tool invocation. |
 | schemas   | Map<`string`, Schema Object> | Describes `schema` name and the format of input and output.                                  |
 
@@ -33,6 +34,13 @@ OpenTool is designed for general-purpose program invocation descriptions and is 
 | title       | `string` | **Required**. The title of the current OpenTool JSON document.                                  |
 | description | `string` | A more detailed description of the current OpenTool document.                                   |
 | version     | `string` | **Required**. The version number of the current document, used for document version management. |
+
+### Server对象
+
+| 字段          | 类型       | 描述                                                            |
+|-------------|----------|---------------------------------------------------------------|
+| url         | `string` | **Required**。A URL to the target host.                        |
+| description | `string` | An optional string describing the host designated by the URL. |
 
 ### Function Object
 
