@@ -40,6 +40,6 @@ Universal Protocol for Tool Invocation by AI Agents
   * [x] [Dart SDK](https://github.com/opentool-hub/opentool-dart)
   * [ ] TypeScript
   * [ ] Java
-  * [ ] C# .NET Framework
+  * [x] [C# .NET Framework](https://github.com/opentool-hub/opentool-csharp)
   * [ ] Python
-  * [ ] LabVIEW 2017
+  * [x] [LabVIEW 2017](https://github.com/opentool-hub/opentool-labview)

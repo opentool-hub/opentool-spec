@@ -31,10 +31,10 @@ AI Agent工具调用通用协议
 
 ## 计划
 
-- 支持更多的语言
-    - [x] [Dart SDK](https://github.com/opentool-hub/opentool-dart)
-    - [ ] TypeScript
-    - [ ] Java
-    - [ ] C# .NET Framework
-    - [ ] Python
-    - [ ] LabVIEW 2017
+* 支持更多的语言
+    * [x] [Dart SDK](https://github.com/opentool-hub/opentool-dart)
+    * [ ] TypeScript
+    * [ ] Java
+    * [x] [C# .NET Framework](https://github.com/opentool-hub/opentool-csharp)
+    * [ ] Python
+    * [x] [LabVIEW 2017](https://github.com/opentool-hub/opentool-labview)
