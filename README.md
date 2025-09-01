@@ -37,9 +37,9 @@ Universal Protocol for Tool Invocation by AI Agents
 
 * Support for more programming languages:
 
-  * [x] [Dart SDK](https://github.com/opentool-hub/opentool-dart)
-  * [ ] TypeScript
-  * [ ] Java
+  * [x] [Dart](https://github.com/opentool-hub/opentool-dart)
+  * [x] [TypeScript](https://github.com/opentool-hub/opentool-typescript)
+  * [x] [Java](https://github.com/opentool-hub/opentool-java)
   * [x] [C# .NET Framework](https://github.com/opentool-hub/opentool-csharp)
   * [ ] Python
   * [x] [LabVIEW 2017](https://github.com/opentool-hub/opentool-labview)
