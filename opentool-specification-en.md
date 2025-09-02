@@ -35,7 +35,7 @@ OpenTool is designed for general-purpose program invocation descriptions and is 
 | description | `string` | A more detailed description of the current OpenTool document.                                   |
 | version     | `string` | **Required**. The version number of the current document, used for document version management. |
 
-### Server对象
+### Server Object
 
 | Field       | Type     | Description                                                   |
 |-------------|----------|---------------------------------------------------------------|
