@@ -37,7 +37,7 @@ OpenTool is designed for general-purpose program invocation descriptions and is 
 
 ### Server对象
 
-| 字段          | 类型       | 描述                                                            |
+| Field       | Type     | Description                                                   |
 |-------------|----------|---------------------------------------------------------------|
 | url         | `string` | **Required**。A URL to the target host.                        |
 | description | `string` | An optional string describing the host designated by the URL. |
